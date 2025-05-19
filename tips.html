@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ar">
 <head>
   <meta charset="UTF-8">
@@ -14,11 +14,6 @@
       animation: fadeIn 1s ease-in;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
     nav {
       background-color: #4caf50;
       padding: 15px;
@@ -31,7 +26,7 @@
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 0 15px;
       font-size: 18px;
       transition: color 0.3s;
     }
@@ -46,11 +41,6 @@
       padding: 40px 20px;
       text-align: center;
       animation: slideIn 1s ease-out;
-    }
-
-    @keyframes slideIn {
-      from { transform: translateY(-30px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
     }
 
     section {
@@ -93,6 +83,11 @@
       padding: 15px;
       margin-top: 40px;
     }
+
+    @keyframes slideIn {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
   </style>
 </head>
 <body>
@@ -101,6 +96,10 @@
     <a href="index.html">الرئيسية</a>
     <a href="about.html">من نحن</a>
     <a href="tips.html">نصائح سريعة</a>
+    <a href="recipes.html">وصفات صحية</a>
+    <a href="meal-plan.html">الخطة الأسبوعية</a>
+    <a href="calorie-calculator.html">حاسبة السعرات</a>
+    <a href="faq.html">الأسئلة الشائعة</a>
   </nav>
 
   <header>
