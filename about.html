@@ -7,16 +7,11 @@
   <style>
     body {
       font-family: 'Cairo', sans-serif;
-      background-color: #f9fdfb;
+      background-color: #f5fff8;
       margin: 0;
       padding: 0;
       direction: rtl;
       animation: fadeIn 1s ease-in;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
     }
 
     nav {
@@ -31,13 +26,13 @@
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 0 15px;
       font-size: 18px;
       transition: color 0.3s;
     }
 
     nav a:hover {
-      color: #c8ffe2;
+      color: #d0ffd6;
     }
 
     header {
@@ -48,35 +43,17 @@
       animation: slideIn 1s ease-out;
     }
 
-    @keyframes slideIn {
-      from { transform: translateY(-30px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      animation: fadeInUp 1.2s ease;
-    }
-
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(40px); }
-      to { opacity: 1; transform: translateY(0); }
+      line-height: 1.8;
     }
 
     h2 {
       color: #388e3c;
-      margin-bottom: 20px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.8;
-      color: #444;
+      text-align: center;
+      margin-bottom: 30px;
     }
 
     footer {
@@ -86,6 +63,11 @@
       padding: 15px;
       margin-top: 40px;
     }
+
+    @keyframes slideIn {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
   </style>
 </head>
 <body>
@@ -94,21 +76,26 @@
     <a href="index.html">الرئيسية</a>
     <a href="about.html">من نحن</a>
     <a href="tips.html">نصائح سريعة</a>
+    <a href="recipes.html">وصفات صحية</a>
+    <a href="meal-plan.html">الخطة الأسبوعية</a>
+    <a href="calorie-calculator.html">حاسبة السعرات</a>
+    <a href="faq.html">الأسئلة الشائعة</a>
   </nav>
 
   <header>
     <h1>من نحن</h1>
-    <p>رسالتنا في صحتك في طبقك</p>
+    <p>رسالتنا صحتك تبدأ من طبقك</p>
   </header>
 
   <section>
-    <h2>من نحن؟</h2>
+    <h2>منصة صحتك في طبقك</h2>
     <p>
-      "صحتك في طبقك" هو مشروع توعوي يهدف إلى تعزيز نمط الحياة الصحي من خلال تقديم محتوى بسيط، جذاب، ومفيد حول التغذية الصحية. 
-      إحنا مؤمنين إن كل تغيير صغير في عاداتك الغذائية ممكن يحدث فرق كبير في حياتك.
+      "صحتك في طبقك" هو موقع هدفه التوعية بالغذاء الصحي وتشجيع العادات الغذائية السليمة.
+      بنقدم محتوى بسيط وعملي يساعد كل شخص يعتني بصحته ويوصل لحياة متوازنة.
     </p>
     <p>
-      انطلقنا من شغفنا بالتغذية والوعي الصحي، وبنسعى نساعد الجميع يختاروا الأكل الصح اللي يفيد أجسامهم ويزيد طاقتهم ويحافظ على صحتهم على المدى البعيد.
+      سواء كنت بتدور على وصفات مغذية، أو نصائح يومية، أو حتى جدول أسبوعي منظم،
+      إحنا هون لندعمك بخطوات صغيرة بتأثر بشكل كبير على صحتك.
     </p>
   </section>
 
